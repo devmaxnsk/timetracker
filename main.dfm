@@ -74,9 +74,9 @@ object Form1: TForm1
     object Label1: TLabel
       Left = 208
       Top = 16
-      Width = 295
+      Width = 199
       Height = 20
-      Caption = 'Idle timer for system boot, break, rest time'
+      Caption = 'Idle timer for lunch, rest time'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -16
@@ -351,7 +351,7 @@ object Form1: TForm1
       Width = 617
       Height = 21
       TabOrder = 2
-      Text = 'Read e-mail, manage old tickets'
+      Text = 'E-mail, Chats, Meetings, etc'
       OnClick = Edit3Click
     end
     object Edit5: TEdit
@@ -366,7 +366,7 @@ object Form1: TForm1
       Font.Style = []
       ParentFont = False
       TabOrder = 3
-      Text = 'RT, Outlook'
+      Text = 'Messages'
       OnClick = Edit5Click
       OnKeyUp = Edit5KeyUp
     end
